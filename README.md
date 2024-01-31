@@ -1,6 +1,13 @@
 # Harmony
-Harmony is a general-purpose TCP hijacking tool that can be used to inject custom payloads to a TCP connection via piping it to the program or by manually typing it.
-
+Harmony is a pretty simple general-purpose TCP hijacking tool that can be used to inject custom payloads to a TCP connection via piping it to the program or by manually typing it. It does not work against encrypted connections like HTTPS and SFTP, but it's useful against old or misconfigured services, IOT devices and other server software that for some reason just don't have encryption enabled.
+```
+   ▌▐    ▌▐     ██     ▒▒▒    ░░       ░░  ░     ░   ░      ░   ·       ·      
+   ▌▐    ▌▐    █  █    ▒  ▒   ░ ░     ░ ░         ░    ░          ·   ·        
+   ▌▐▀▀▀▀▌▐   █▄▄▄▄█   ▒▒▒    ░  ░   ░  ░ ░          ░      ░        ·         
+   ▌▐    ▌▐  █      █  ▒  ▒   ░   ░ ░   ░        ░        ░        ·           
+   ▌▐    ▌▐ █        █ ▒   ▒  ░    ░    ░   ░ ░      ░     ░     ·             
+```
+## Demonstration
 ```
  Client                               Hacker
 █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
