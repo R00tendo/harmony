@@ -51,4 +51,4 @@ cat payload.bin |python3 harmony.py --target 192.168.1.39:192.168.1.53:21
 ```
 
 ## Learn what TCP hijacking is
-<mediunm link here :)>
+https://medium.com/@R00tendo/tcp-connection-hijacking-deep-dive-9bbe03fce9a9
